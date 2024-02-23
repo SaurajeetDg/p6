@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/994c9eb8e1.js" crossorigin="anonymous"></script>
+    <title>Sign up Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col1">
+            <h4>ELEVATE</h4>
+            <p>Welcome to <br> <span>Elevate</span></p>
+        </div>
+        <div class="col2">
+            <h1>Sign Up</h1>
+            <p>Create an account to access latest jobs, networking, events and trainings.</p>
+            <form>
+                <div class="row">
+                    <input type="text" name="firstname" placeholder="First Name" required>
+                    <input type="text" name="lastname" placeholder="Last Name" required>
+                </div>
+                <div class="row">
+                    <input type="email" name="email" placeholder="Email Id" required>
+                    <!-- <label for="gender">Gender</label> -->
+                    <select name="gender">
+                        <option value="Gender">Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <input type="number" name="number" placeholder="+91|   Phone Number">
+                    <input type="text" name="DOB" placeholder="DOB                                                            &#128197; " onclick="(this.type='date') "onblur="(this.type='text')">
+                </div>
+                <div class="row">
+                    <input type="password" name="password" placeholder="Password "><i id="eye" class="fa-solid fa-eye" style="color: rgb(177, 175, 175);"></i>
+                    <input type="password" name="password" placeholder="Confirm Password"><i id="eye1" class="fa-solid fa-eye" style="color: rgb(177, 175, 175);"></i>
+                </div>
+                <div class="row1">
+                    <input type="checkbox"> I've read and agreed with <span>Terms of Service</span> and our <span>Privacy policy</span>
+                </div>
+            </form>
+            <div class="btn">
+                <a href="">Sign Up</a>
+            </div>
+            <div class="endp">
+                <p>Already have an account? <span>sign In</span> <br>
+                     <p id="or"> ------or------</p>
+                </p>
+            </div>
+            <div class="endrow">
+                <div class="btn1">
+                    <a href=""><i class="fa-brands fa-google"></i> Sign Up with Google</a>
+                </div>
+                <div class="btn1">
+                    <a href=""><i class="fa-brands fa-microsoft"></i> Sign Up with Microsoft</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
